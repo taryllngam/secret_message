@@ -4,10 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Secret Message</title>
     <link rel="stylesheet" href="./assets/styles/styles.css">
 </head>
 <body>
-    <script src="./script.js"></script>
+    <div class="workArea">
+      <h1>SECRET MESSAGE</h1>
+        <div class="textInput">
+            <input type="text" placeholder="input message to encode" id="textArea">
+            <button id="encode">Encode</button>
+        </div>
+        <div class="encodeMessage">
+            <div id="normal" class="display"></div>
+            <div id="encodeMessageList" class="display"></div>
+            <div id="encodeMessageListchunks" class="display"></div>
+
+        </div>
+
+    </div>
+    
+
+<script src="./script.js"></script>
 </body>
 </html>
